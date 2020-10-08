@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #FEF9E7;
+}
+header{
+    height: 70px;
+    width: 100%;
+    background-color: #EBEDEF;
+}
+header img{
+    z-index: 2;
+    position: absolute;
+    height: 70px;
+    width: 250px;
+    object-fit: cover;
+}
+header .title{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    color: white;
+    font-family: 'Acme', sans-serif;
+}
+.title h1{
+    color: cornflowerblue;
+}
+.info
+{
+    margin-top: 75px;
+    position: relative;
+    height: 350px;
+    width: 60%;
+    margin-left: 20%;
+}
+.pic
+{
+    border-radius: 50px 0 0 50px;
+    height: 300px;
+    width: 50%;
+    background-color: #85C1E9;
+}
+.pic img
+{
+    height: 100%;
+    width: 100%;
+}
+.text
+{
+    border-radius: 0 50px 50px 0;
+    position: absolute;
+    left: 50%;
+    height: 300px;
+    width: 50%;
+    background-color: #85C1E9;  
+}
+.text h2
+{  
+      font-family: 'Sansita Swashed', cursive;
+      margin-top: 20px;
+      margin-left: 40px;
+}
+
+.tracker
+{
+    border-radius: 50px;
+    position: relative;
+    width: 70%;
+    height: 100px;
+    background-color: #FAD7A0;
+    margin-left: 15%;
+}
+.track
+{
+    text-align: center;
+    top: 30%;
+    position: absolute;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: white;
+    width: 40%;
+    padding: 10px;
+    font-family: 'Sansita Swashed', cursive;
+}
+.Symptoms
+{
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    padding: 10px;
+    position: absolute;
+    border-radius: 20px;
+    color: #D35400;
+    width: 40%;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+
+.main{
+    font-family: 'Sansita Swashed', cursive;
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    top: 70%;
+    left: 0px;
+}
+.main input{
+    font-family: 'Sansita Swashed', cursive;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 185px;
+}
+.main input:active{
+   outline: none;
+}
+.main button{
+    border: white;
+    color: white;
+    font-size: 16px;
+    background-color: purple;
+    font-family: 'Sansita Swashed', cursive;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    border-radius: 20px;
+}
+.main button:active{
+    outline: none;
+    border: none;
+    border: none;
+}
+.main .content{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 70px;
+    width: 100%;
+    font-family: 'Sansita Swashed', cursive;
+}  
+.B1
+{
+    color: #9B59B6;
+    border-radius: 20px;
+    margin-left: 20%;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #F4ECF7;
+}  
+.B1 h2
+{
+    position: absolute;
+    margin: 30px;
+}
+.country
+{
+    font-size: 24px;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+.B2
+{
+    border-radius: 20px;
+    margin-left: 70%;
+    position: relative;
+    width: 200px;
+    color: #D35400;
+    margin-top: -200px;
+    height: 200px;
+    background-color: #F8C471 ;
+}
+.time
+{
+    font-size: 24px;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+.B2 h2
+{
+    position: absolute;
+    margin: 30px;
+}
+.B3
+{
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 20%;
+    position: relative;
+    width: 200px;
+    color: #E74C3C;
+    height: 200px;
+    background-color: #F5B7B1;
+}  
+.confirmed
+{
+    font-size: 24px;
+    position: absolute;
+    top: 70%;
+    left: 50%;    
+}
+.B3 h2
+{
+    position: absolute;
+    margin: 30px;
+}
+.B4
+{
+    color: #2E86C1 ;
+    border-radius: 20px;
+    margin-top: -200px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: 70%;
+    background-color: #D6EAF8;
+}
+.Active
+{
+    font-size: 24px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+.B4 h2
+{
+    position: absolute;
+    margin: 30px;
+}
+.B5
+{
+    color: #239B56;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 20%;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #D5F5E3;
+}
+.recovered
+{
+    font-size: 24px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+.B5 h2
+{
+    position: absolute;
+    margin: 30px;
+}
+.B6
+{
+    color: #707B7C;
+    border-radius: 20px;
+    margin-top: -200px;
+    margin-left: 70%;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #BDC3C7;
+}
+.deaths
+{
+    font-size: 24px;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+}
+.B6 h2
+{
+    position: absolute;
+    margin: 30px;
+}
